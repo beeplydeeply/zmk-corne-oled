@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - <
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
@@ -70,7 +70,7 @@ layers:
   - KP 4
   - KP 5
   - $$mdi:arrow-left-bold$$
-  - '&bl BL_TOG'
+  - RGB TOG
   - $$mdi:arrow-right-bold$$
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -90,7 +90,7 @@ layers:
   - '?'
   - '{'
   - '}'
-  - {t: /, s: '?'}
+  - '#'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - {type: held}
@@ -113,13 +113,13 @@ layers:
   - F11
   - F12
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&um_a'
+  - '&um_e'
+  - '&um_i'
+  - '&um_o'
+  - '&um_u'
   - $$mdi:pan-left$$
-  - '&bl BL_CYCLE'
+  - RGB TOG
   - $$mdi:pan-right$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -128,7 +128,7 @@ layers:
   - PgUp
   - RIGHT WIN
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&emdash'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -160,7 +160,7 @@ layers:
   - {t: '8', h: Ctl+8, s: '*'}
   - {t: '9', h: Ctl+9, s: (}
   - {t: '0', h: Ctl+0, s: )}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -189,7 +189,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - {t: QWERTY, h: toggle}
   - $$mdi:keyboard-space$$
