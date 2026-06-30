@@ -21,7 +21,7 @@ layers:
   - {t: F, h: Ctl+F}
   - G
   - $$mdi:arrow-left-bold$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: QWERTY, h: toggle}
   - $$mdi:arrow-right-bold$$
   - H
   - J
@@ -35,7 +35,7 @@ layers:
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - B
-  - {t: QWERTY, h: toggle}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -70,7 +70,7 @@ layers:
   - KP 4
   - KP 5
   - $$mdi:arrow-left-bold$$
-  - $$mdi:apple-keyboard-caps$$
+  - '&bl BL_TOG'
   - $$mdi:arrow-right-bold$$
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -84,7 +84,7 @@ layers:
   - KP 8
   - KP 9
   - KP 0
-  - '&bl BL_TOG'
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
   - '!'
   - '?'
@@ -119,7 +119,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
-  - $$mdi:apple-keyboard-caps$$
+  - '&bl BL_CYCLE'
   - $$mdi:pan-right$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -133,7 +133,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&bl BL_CYCLE'
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:pan-down$$
   - END
   - {t: '$$mdi:transfer$$', type: trans}
@@ -168,7 +168,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: QWERTY, h: toggle}
   - $$mdi:arrow-right-bold$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -182,7 +182,7 @@ layers:
   - D
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: QWERTY, h: toggle}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
