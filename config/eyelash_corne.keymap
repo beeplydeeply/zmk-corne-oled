@@ -27,14 +27,6 @@
             tap-ms = <0>;
         };
 
-        soft_off: soft_off {
-            compatible = "zmk,behavior-soft-off";
-            label = "SOFT_OFF";
-            #binding-cells = <0>;
-            hold-time-ms = <20>;
-            split-peripheral-off-on-press;
-        };
-
         rgb_cycle: rgb_cycle {
             compatible = "zmk,behavior-sensor-rotate";
             label = "RGB_CYCLE";
