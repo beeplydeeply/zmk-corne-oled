@@ -40,6 +40,13 @@
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_SPI>, <&rgb_ug RGB_SPD>;
         };
+
+        rgb_bright: rgb_bright {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_BRIGHT";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -178,7 +185,7 @@
                                  &kp LCTRL  &trans  &kp SPACE                                                                &kp ENTER  &trans  &kp RIGHT_ALT
             >;
 
-            sensor-bindings = <&rgb_speed>, <&rsr_trans>;
+            sensor-bindings = <&rgb_bright>, <&rsr_trans>;
         };
 
         pso {
