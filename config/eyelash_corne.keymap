@@ -64,8 +64,8 @@
                 <&kp LEFT_ALT>;
 
             label = "EMDASH";
-            wait-ms = <20>;
-            tap-ms = <30>;
+            wait-ms = <30>;
+            tap-ms = <40>;
         };
 
         um_a: um_a {
@@ -80,8 +80,8 @@
                 <&kp LEFT_ALT>;
 
             label = "UM_A";
-            wait-ms = <20>;
-            tap-ms = <30>;
+            wait-ms = <30>;
+            tap-ms = <40>;
         };
 
         um_o: um_o {
