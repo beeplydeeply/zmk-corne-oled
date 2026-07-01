@@ -56,8 +56,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp LA(N0) &kp LA(N4) &kp LA(N5) &kp LA(N1)>;
+                <&kp KP_NUMBER_0 &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_1>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
 
             label = "EMDASH";
             wait-ms = <20>;
@@ -71,7 +75,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N1 &kp N3 &kp N2>,
+                <&kp KP_NUMBER_1 &kp KP_NUMBER_3 &kp KP_NUMBER_2>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -184,7 +188,9 @@
                 <&macro_tap>,
                 <&kp N2 &kp N4 &kp N8>,
                 <&macro_release>,
-                <&kp RIGHT_ALT>;
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp RIGHT_PARENTHESIS>;
 
             label = "LENNY";
             wait-ms = <20>;
