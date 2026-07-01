@@ -203,7 +203,7 @@ layers:
   - {t: '3', h: Ctl+3}
   - {t: '4', h: Ctl+4}
   - {t: '5', h: Ctl+5, s: '%'}
-  - CLCK
+  - $$mdi:apple-keyboard-caps$$
   - {t: '6', h: Ctl+6}
   - {t: '7', h: Ctl+7, s: '&'}
   - {t: '8', h: Ctl+8, s: '*'}
