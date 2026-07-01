@@ -128,16 +128,16 @@ layers:
   - )
   - RIGHT WIN
   - $$mdi:apple-keyboard-shift$$
-  - '&um_a'
-  - '&um_e'
-  - '&um_i'
-  - '&um_o'
-  - '&um_u'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
   - {t: '-', s: _}
   - _
-  - '&emdash'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '=', s: +}
   - +
   - $$mdi:apple-keyboard-shift$$
@@ -185,7 +185,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:pan-down$$
   - Ctl+AltGr+$$mdi:backspace-reverse-outline$$
-  - '&lenny'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: \, s: '|'}
   - '|'
   - PgDn
