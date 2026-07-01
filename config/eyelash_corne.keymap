@@ -56,12 +56,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp LA(N0) &kp LA(N4) &kp LA(N5) &kp LA(N1)>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
+                <&kp LA(N0) &kp LA(N4) &kp LA(N5) &kp LA(N1)>;
 
             label = "EMDASH";
             wait-ms = <20>;
