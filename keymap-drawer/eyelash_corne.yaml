@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - PRINTSCREEN
+  - Ctl+Sft+PRINTSCREEN
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - Sft+PRINTSCREEN
-  - {t: pso, h: toggle}
-  - Ctl+PRINTSCREEN
+  - $$mdi:arrow-left-bold$$
+  - {t: Ctl+PRINTSCREEN, h: pso}
+  - $$mdi:arrow-right-bold$$
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - $$mdi:apple-keyboard-caps$$
-  - Ctl+Sft+PRINTSCREEN
+  - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Fn
-  - '&alt_tab'
+  - $$mdi:apple-keyboard-option$$
   mod:
   - $$mdi:keyboard-esc$$
   - Q
@@ -56,7 +56,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-up-bold$$
+  - Ctl+Sft+PRINTSCREEN
   - {t: Y, h: Ctl+Y}
   - U
   - I
@@ -70,7 +70,7 @@ layers:
   - {t: F, h: Ctl+F}
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: QWERTY, h: toggle}
+  - {t: Ctl+PRINTSCREEN, h: QWERTY}
   - $$mdi:arrow-right-bold$$
   - H
   - J
@@ -97,7 +97,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Fn
-  - '&alt_tab'
+  - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: '`', s: '~'}
   - '1'
@@ -135,9 +135,9 @@ layers:
   - '&um_u'
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
-  - '&emdash'
   - {t: '-', s: _}
   - _
+  - '&emdash'
   - {t: '=', s: +}
   - +
   - $$mdi:apple-keyboard-shift$$
@@ -146,7 +146,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&alt_tab'
+  - $$mdi:apple-keyboard-option$$
   Fn:
   - F1
   - F2
@@ -184,7 +184,7 @@ layers:
   - KP 0
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:pan-down$$
-  - '&lenny'
+  - Ctl+AltGr+$$mdi:backspace-reverse-outline$$
   - '&lenny'
   - {t: \, s: '|'}
   - '|'
@@ -195,7 +195,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
-  - '&alt_tab'
+  - $$mdi:apple-keyboard-option$$
   pso:
   - $$mdi:keyboard-esc$$
   - {t: '1', h: Ctl+1}
@@ -217,7 +217,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
-  - {t: QWERTY, h: toggle}
+  - {t: PRINTSCREEN, h: QWERTY, type: held}
   - $$mdi:arrow-right-bold$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -244,4 +244,4 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&alt_tab'
+  - $$mdi:apple-keyboard-option$$
