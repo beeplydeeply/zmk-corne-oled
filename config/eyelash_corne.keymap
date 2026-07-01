@@ -230,7 +230,7 @@
             bindings = <
 &kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N4      &kp N5                             &kp UP_ARROW                      &kp NUMBER_6  &kp N7     &kp N8         &kp N9                &kp N0                 &kp BSPC
 &kp TAB         &kp EXCL      &kp AT        &kp POUND     &kp DOLLAR  &kp PERCENT              &kp LEFT  &rgb_ug RGB_TOG  &kp RIGHT_ARROW  &kp CARET     &kp AMPS   &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_WIN
-&kp LEFT_SHIFT  &um_a         &um_e         &um_i         &um_o       &um_u        &kp CAPS              &kp DOWN                          &kp MINUS     &kp UNDER  &emdash        &kp EQUAL             &kp PLUS               &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &none         &none         &none         &none       &none        &kp CAPS              &kp DOWN                          &kp MINUS     &kp UNDER  &none          &kp EQUAL             &kp PLUS               &kp RIGHT_SHIFT
                                             &kp LCTRL     &trans      &kp SPACE                                                            &kp ENTER     &trans     &kp RIGHT_ALT
             >;
 
@@ -242,7 +242,7 @@
             bindings = <
 &kp F1          &kp F2           &kp F3           &kp F4           &mt LC(F5) F5    &kp F6                                       &msc SCRL_UP                      &kp F7              &kp F8             &kp F9          &kp F10          &kp F11        &kp F12
 &kp TAB         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5              &msc SCRL_LEFT  &rgb_ug RGB_TOG  &msc SCRL_RIGHT  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PAGE_UP    &kp RIGHT_WIN
-&kp LEFT_SHIFT  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp CAPS                    &msc SCRL_DOWN                    &kp RC(RA(DELETE))  &lenny             &kp BACKSLASH   &kp PIPE         &kp PAGE_DOWN  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp CAPS                    &msc SCRL_DOWN                    &kp RC(RA(DELETE))  &none              &kp BACKSLASH   &kp PIPE         &kp PAGE_DOWN  &kp RIGHT_SHIFT
                                                   &kp LCTRL        &trans           &kp SPACE                                                                      &kp ENTER           &trans             &kp RIGHT_ALT
             >;
 
