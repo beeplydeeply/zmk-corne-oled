@@ -247,10 +247,10 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1          &kp F2   &kp F3  &kp F4     &mt LC(F5) F5  &kp F6                                 &msc SCRL_UP                      &kp F7     &kp F8  &kp F9    &kp F10  &kp F11        &kp F12
-&kp TAB         &um_a    &um_e   &um_i      &um_o          &um_u                  &msc SCRL_LEFT  &rgb_ug RGB_TOG  &msc SCRL_RIGHT  &kp HOME   &none   &none     &none    &kp PAGE_UP    &kp RIGHT_WIN
-&kp LEFT_SHIFT  &emdash  &trans  &none      &trans         &none      &kp CAPS                    &msc SCRL_DOWN                    &kp END    &trans  &none     &none    &kp PAGE_DOWN  &kp RIGHT_SHIFT
-                                 &kp LCTRL  &trans         &kp SPACE                                                                &kp ENTER  &trans  &alt_tab
+&kp F1          &kp F2           &kp F3           &kp F4           &mt LC(F5) F5    &kp F6                                       &msc SCRL_UP                      &kp F7            &kp F8             &kp F9          &kp F10          &kp F11        &kp F12
+&kp TAB         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5              &msc SCRL_LEFT  &rgb_ug RGB_TOG  &msc SCRL_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PAGE_UP    &kp RIGHT_WIN
+&kp LEFT_SHIFT  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp CAPS                    &msc SCRL_DOWN                    &lenny            &lenny             &kp BACKSLASH   &kp PIPE         &kp PAGE_DOWN  &kp RIGHT_SHIFT
+                                                  &kp LCTRL        &trans           &kp SPACE                                                                      &kp ENTER         &trans             &alt_tab
             >;
 
             sensor-bindings = <&rgb_bright>, <&rsr_trans>;
