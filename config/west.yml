@@ -39,6 +39,6 @@ manifest:
       revision: zmk-v0.3.0.0
     - name: zmk-unicode
       remote: urob
-      revision: v0.3 # Should match ZMK release.
+      revision: v0.3-branch+dya # Should match ZMK release.
   self:
     path: config
