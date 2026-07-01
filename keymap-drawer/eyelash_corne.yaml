@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Fn
-  - $$mdi:apple-keyboard-option$$
+  - '&alt_tab'
   NUMBER:
   - {t: '`', s: '~'}
   - '1'
@@ -64,46 +64,46 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 4
-  - KP 5
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - $$mdi:arrow-left-bold$$
   - RGB TOG
   - $$mdi:arrow-right-bold$$
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
-  - {t: F5, h: Sft+F5}
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - RIGHT WIN
   - $$mdi:apple-keyboard-shift$$
-  - KP 6
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - '&um_a'
+  - '&um_e'
+  - '&um_i'
+  - '&um_o'
+  - '&um_u'
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
-  - '!'
-  - '?'
-  - '{'
-  - '}'
-  - '#'
+  - '&emdash'
+  - {t: '-', s: _}
+  - _
+  - {t: '=', s: +}
+  - +
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - '&alt_tab'
   Fn:
   - F1
   - F2
   - F3
   - F4
-  - F5
+  - {t: F5, h: Ctl+F5}
   - F6
   - $$mdi:pan-up$$
   - F7
@@ -146,7 +146,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
+  - '&alt_tab'
   pso:
   - $$mdi:keyboard-esc$$
   - {t: '1', h: Ctl+1}
@@ -175,7 +175,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RIGHT WIN
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -195,4 +195,4 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-option$$
+  - '&alt_tab'
