@@ -113,32 +113,32 @@ layers:
   - F11
   - F12
   - $$mdi:keyboard-tab$$
-  - '&um_a'
-  - '&um_e'
-  - '&um_i'
-  - '&um_o'
-  - '&um_u'
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP 4
+  - KP 5
   - $$mdi:pan-left$$
   - RGB TOG
   - $$mdi:pan-right$$
-  - HOME
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '{'
+  - '}'
   - PgUp
   - RIGHT WIN
   - $$mdi:apple-keyboard-shift$$
-  - '&emdash'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP 6
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:pan-down$$
-  - END
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&lenny'
+  - '&lenny'
+  - {t: \, s: '|'}
+  - '|'
   - PgDn
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
