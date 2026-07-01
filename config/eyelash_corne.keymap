@@ -59,13 +59,13 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp N0 &kp N4 &kp N5 &kp N1>,
+                <&kp LA(N0) &kp LA(N4) &kp LA(N5) &kp LA(N1)>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
             label = "EMDASH";
-            wait-ms = <0>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <30>;
         };
 
         um_a: um_a {
@@ -80,8 +80,8 @@
                 <&kp LEFT_ALT>;
 
             label = "UM_A";
-            wait-ms = <0>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <30>;
         };
 
         um_o: um_o {
@@ -96,8 +96,8 @@
                 <&kp LEFT_ALT>;
 
             label = "UM_O";
-            wait-ms = <0>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <30>;
         };
 
         um_u: um_u {
@@ -112,8 +112,8 @@
                 <&kp LEFT_ALT>;
 
             label = "UM_U";
-            wait-ms = <0>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <30>;
         };
 
         um_e: um_e {
@@ -128,8 +128,8 @@
                 <&kp LEFT_ALT>;
 
             label = "UM_E";
-            wait-ms = <0>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <30>;
         };
 
         um_i: um_i {
@@ -144,8 +144,8 @@
                 <&kp LEFT_ALT>;
 
             label = "UM_I";
-            wait-ms = <0>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <30>;
         };
 
         lenny: lenny {
@@ -160,11 +160,11 @@
                 <&macro_release>,
                 <&kp LEFT_ALT>,
                 <&macro_press>,
-                <&kp LEFT_ALT>,
+                <&kp RIGHT_ALT>,
                 <&macro_tap>,
                 <&kp N2 &kp N4 &kp N8>,
                 <&macro_release>,
-                <&kp LEFT_ALT>,
+                <&kp RIGHT_ALT>,
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
@@ -172,11 +172,11 @@
                 <&macro_release>,
                 <&kp LEFT_ALT>,
                 <&macro_press>,
-                <&kp LEFT_ALT>,
+                <&kp RIGHT_ALT>,
                 <&macro_tap>,
                 <&kp N6 &kp N6 &kp N2>,
                 <&macro_release>,
-                <&kp LEFT_ALT>,
+                <&kp RIGHT_ALT>,
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
@@ -184,15 +184,15 @@
                 <&macro_release>,
                 <&kp LEFT_ALT>,
                 <&macro_press>,
-                <&kp LEFT_ALT>,
+                <&kp RIGHT_ALT>,
                 <&macro_tap>,
                 <&kp N2 &kp N4 &kp N8>,
                 <&macro_release>,
-                <&kp LEFT_ALT &kp RIGHT_PARENTHESIS>;
+                <&kp RIGHT_ALT>;
 
             label = "LENNY";
-            wait-ms = <0>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <30>;
         };
     };
 
