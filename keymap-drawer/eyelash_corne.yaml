@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - Ctl+Sft+PRINTSCREEN
+  - $$mdi:apple-keyboard-caps$$
   - Y
   - U
   - I
@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:apple-keyboard-caps$$
+  - Ctl+Sft+PRINTSCREEN
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -56,7 +56,7 @@ layers:
   - E
   - R
   - T
-  - Ctl+Sft+PRINTSCREEN
+  - $$mdi:apple-keyboard-caps$$
   - {t: Y, h: Ctl+Y}
   - U
   - I
@@ -84,7 +84,7 @@ layers:
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - B
-  - $$mdi:apple-keyboard-caps$$
+  - Ctl+Sft+PRINTSCREEN
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -203,7 +203,7 @@ layers:
   - {t: '3', h: Ctl+3}
   - {t: '4', h: Ctl+4}
   - {t: '5', h: Ctl+5, s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - CLCK
   - {t: '6', h: Ctl+6}
   - {t: '7', h: Ctl+7, s: '&'}
   - {t: '8', h: Ctl+8, s: '*'}
