@@ -251,7 +251,7 @@
 
         pso {
             bindings = <
-&kp ESCAPE      &mt LC(NUMBER_1) NUMBER_1  &mt LC(NUMBER_2) NUMBER_2  &mt LC(NUMBER_3) NUMBER_3  &mt LC(NUMBER_4) NUMBER_4  &mt LC(N5) N5                        &kp CLCK                      &mt RC(NUMBER_6) NUMBER_6  &mt RC(N7) N7  &mt RC(N8) N8  &mt RC(N9) N9  &mt RC(N0) N0  &kp BACKSPACE
+&kp ESCAPE      &mt LC(NUMBER_1) NUMBER_1  &mt LC(NUMBER_2) NUMBER_2  &mt LC(NUMBER_3) NUMBER_3  &mt LC(NUMBER_4) NUMBER_4  &mt LC(N5) N5                        &kp CAPSLOCK                  &mt RC(NUMBER_6) NUMBER_6  &mt RC(N7) N7  &mt RC(N8) N8  &mt RC(N9) N9  &mt RC(N0) N0  &kp BACKSPACE
 &kp TAB         &kp Q                      &kp W                      &kp E                      &none                      &none                      &kp LEFT  &lt 0 PRINTSCREEN  &kp RIGHT  &kp HOME                   &none          &none          &none          &kp PAGE_UP    &kp RIGHT_WIN
 &kp LEFT_SHIFT  &kp A                      &kp S                      &kp D                      &none                      &none          &kp CAPS              &kp DOWN                      &kp END                    &none          &none          &none          &kp PAGE_DOWN  &kp RIGHT_SHIFT
                                                                       &kp LCTRL                  &to 1                      &kp SPACE                                                          &kp ENTER                  &none          &kp RIGHT_ALT
