@@ -196,7 +196,8 @@
                 <&kp N2 &kp N4 &kp N8>,
                 <&macro_release>,
                 <&kp LEFT_ALT>,
-                <&macro_press>;
+                <&macro_tap>,
+                <&kp RIGHT_PARENTHESIS>;
 
             label = "LENNY";
             wait-ms = <30>;
