@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-up-bold$$
   - Y
   - U
   - I
@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - Ctl+Sft+PRINTSCREEN
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -84,7 +84,7 @@ layers:
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - B
-  - Ctl+Sft+PRINTSCREEN
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -203,7 +203,7 @@ layers:
   - {t: '3', h: Ctl+3}
   - {t: '4', h: Ctl+4}
   - {t: '5', h: Ctl+5, s: '%'}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-up-bold$$
   - {t: '6', h: Ctl+6}
   - {t: '7', h: Ctl+7, s: '&'}
   - {t: '8', h: Ctl+8, s: '*'}
@@ -217,7 +217,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
-  - {t: PRINTSCREEN, h: QWERTY, type: held}
+  - {t: PRINTSCREEN, type: held}
   - $$mdi:arrow-right-bold$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -243,5 +243,5 @@ layers:
   - {t: mod, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-option$$
