@@ -204,10 +204,10 @@
         default {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R  &kp T                                                 &kp CAPSLOCK                            &kp Y      &kp U  &kp I          &kp O    &kp P          &kp BSPC
-&kp TAB         &kp A  &kp S  &kp D      &kp F  &kp G                                 &kp LEFT_ARROW  &lt 4 RC(PRINTSCREEN)  &kp RIGHT_ARROW  &kp H      &kp J  &kp K          &kp L    &kp SEMICOLON  &kp APOSTROPHE
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V  &kp B      &kp LC(LS(PRINTSCREEN))                    &kp DOWN_ARROW                          &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                              &kp LCTRL  &mo 2  &kp SPACE                                                                                     &kp ENTER  &mo 3  &kp RIGHT_ALT
+&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R  &kp T                                      &kp UP_ARROW                            &kp Y      &kp U  &kp I          &kp O    &kp P          &kp BSPC
+&kp TAB         &kp A  &kp S  &kp D      &kp F  &kp G                      &kp LEFT_ARROW  &lt 4 RC(PRINTSCREEN)  &kp RIGHT_ARROW  &kp H      &kp J  &kp K          &kp L    &kp SEMICOLON  &kp APOSTROPHE
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V  &kp B      &kp CAPSLOCK                    &kp DOWN_ARROW                          &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                              &kp LCTRL  &mo 2  &kp SPACE                                                                          &kp ENTER  &mo 3  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>, <&rsr_trans>;
@@ -216,10 +216,10 @@
         mod {
             display-name = "mod";
             bindings = <
-&kp ESCAPE      &kp Q        &kp W        &kp E        &kp R        &kp T                                           &kp CAPSLOCK                      &mt RC(Y) Y  &kp U  &kp I          &kp O    &kp P          &kp BSPC
-&kp TAB         &mt LC(A) A  &mt LC(S) S  &mt LC(D) D  &mt LC(F) F  &kp G                                 &kp LEFT  &lt 0 RC(PRINTSCREEN)  &kp RIGHT  &kp H        &kp J  &kp K          &kp L    &kp SEMICOLON  &kp APOSTROPHE
-&kp LEFT_SHIFT  &mt LC(Z) Z  &mt LC(X) X  &mt LC(C) C  &mt LC(V) V  &kp B      &kp LC(LS(PRINTSCREEN))              &kp DOWN                          &kp N        &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                                          &kp LCTRL    &mo 2        &kp SPACE                                                                         &kp ENTER    &mo 3  &kp RIGHT_ALT
+&kp ESCAPE      &kp Q        &kp W        &kp E        &kp R        &kp T                                &kp CAPSLOCK                      &mt RC(Y) Y  &kp U  &kp I          &kp O    &kp P          &kp BSPC
+&kp TAB         &mt LC(A) A  &mt LC(S) S  &mt LC(D) D  &mt LC(F) F  &kp G                      &kp LEFT  &lt 0 RC(PRINTSCREEN)  &kp RIGHT  &kp H        &kp J  &kp K          &kp L    &kp SEMICOLON  &kp APOSTROPHE
+&kp LEFT_SHIFT  &mt LC(Z) Z  &mt LC(X) X  &mt LC(C) C  &mt LC(V) V  &kp B      &kp CAPSLOCK              &kp DOWN                          &kp N        &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                                          &kp LCTRL    &mo 2        &kp SPACE                                                              &kp ENTER    &mo 3  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>, <&rsr_trans>;
@@ -251,10 +251,10 @@
 
         pso {
             bindings = <
-&kp ESCAPE      &mt LC(NUMBER_1) NUMBER_1  &mt LC(NUMBER_2) NUMBER_2  &mt LC(NUMBER_3) NUMBER_3  &mt LC(NUMBER_4) NUMBER_4  &mt LC(N5) N5                        &kp CAPSLOCK                  &mt RC(NUMBER_6) NUMBER_6  &mt RC(N7) N7  &mt RC(N8) N8  &mt RC(N9) N9  &mt RC(N0) N0  &kp BACKSPACE
-&kp TAB         &kp Q                      &kp W                      &kp E                      &none                      &none                      &kp LEFT  &lt 0 PRINTSCREEN  &kp RIGHT  &kp HOME                   &none          &none          &none          &kp PAGE_UP    &kp RIGHT_WIN
-&kp LEFT_SHIFT  &kp A                      &kp S                      &kp D                      &none                      &none          &kp CAPS              &kp DOWN                      &kp END                    &none          &none          &none          &kp PAGE_DOWN  &kp RIGHT_SHIFT
-                                                                      &kp LCTRL                  &to 1                      &kp SPACE                                                          &kp ENTER                  &none          &kp RIGHT_ALT
+&kp ESCAPE      &mt LC(NUMBER_1) NUMBER_1  &mt LC(NUMBER_2) NUMBER_2  &mt LC(NUMBER_3) NUMBER_3  &mt LC(NUMBER_4) NUMBER_4  &mt LC(N5) N5                        &kp UP_ARROW                &mt RC(NUMBER_6) NUMBER_6  &mt RC(N7) N7  &mt RC(N8) N8  &mt RC(N9) N9  &mt RC(N0) N0  &kp BACKSPACE
+&kp TAB         &kp Q                      &kp W                      &kp E                      &none                      &none                      &kp LEFT  &kp PRINTSCREEN  &kp RIGHT  &kp HOME                   &none          &none          &none          &kp PAGE_UP    &kp RIGHT_WIN
+&kp LEFT_SHIFT  &kp A                      &kp S                      &kp D                      &none                      &none          &kp CAPS              &kp DOWN                    &kp END                    &none          &none          &none          &kp PAGE_DOWN  &kp RIGHT_SHIFT
+                                                                      &kp LCTRL                  &to 1                      &kp SPACE                                                        &kp ENTER                  &to 0          &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
