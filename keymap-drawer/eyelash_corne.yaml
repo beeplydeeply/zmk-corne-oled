@@ -21,7 +21,7 @@ layers:
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: Ctl+PRINTSCREEN, h: pso}
+  - {t: pso, h: toggle}
   - $$mdi:arrow-right-bold$$
   - H
   - J
@@ -56,7 +56,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-up-bold$$
   - {t: Y, h: Ctl+Y}
   - U
   - I
@@ -70,7 +70,7 @@ layers:
   - {t: F, h: Ctl+F}
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: Ctl+PRINTSCREEN, h: QWERTY}
+  - {t: QWERTY, h: toggle}
   - $$mdi:arrow-right-bold$$
   - H
   - J
@@ -217,7 +217,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
-  - {t: PRINTSCREEN, type: held}
+  - PRINTSCREEN
   - $$mdi:arrow-right-bold$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
